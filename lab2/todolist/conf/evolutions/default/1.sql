@@ -5,7 +5,9 @@
 
 create table task (
   id                        bigint not null,
-  label                     varchar(255),
+  nome                      varchar(255),
+  descricao                 varchar(255),
+  prioridade                integer,
   constraint pk_task primary key (id))
 ;
 
